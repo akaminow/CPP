@@ -1,15 +1,11 @@
-class TreeNode{
+class treeNode{
 	public:
-		TreeNode();
-		TreeNode(char num, TreeNode* newRight, TreeNode* newLeft);
-		void setLeft(TreeNode* newLeft);
-		void setRight(TreeNode* newRight);
+		treeNode();
+		treeNode(char num, treeNode* newRight, treeNode* newLeft);
+		void setLeft(treeNode* newLeft);
+		void setRight(treeNode* newRight);
 		void setVal(char num);
-		TreeNode* getLeft();
-		TreeNode* getRight();
+		treeNode* getLeft();
+		treeNode* getRight();
 		char getValue();
-	private:
-		char value;
-		TreeNode* left;
-		TreeNode* right;
 };
